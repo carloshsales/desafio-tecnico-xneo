@@ -1,0 +1,137 @@
+#form-group {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#description {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 20rem;
+    border: 1px solid #047de0;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+#add-btn {
+    padding: .6rem 2rem;
+    border: 1px solid #047de0;
+    border-radius: 0.4rem;
+    background-color: #2f2f2f;
+    color: #f2f2f2;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+#add-btn:hover {
+    cursor: pointer;
+    background-color: #70c3fa;
+    color: #2f2f2f;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list-container {
+    width: 100%;
+    margin: 2rem auto 1rem auto;
+    min-height: 1rem;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 1rem auto;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.list-item .content {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: 1.2rem;
+}
+
+.list-item .content.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.checkbox {
+    margin-right: 1rem;
+    margin-left: .5rem;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1.1rem;
+    height: 1.1rem;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.checkbox:checked {
+    background-color: #047de0;
+    border-color: #047de0;
+}
+
+.checkbox:focus {
+    box-shadow: 0 0 0 2px #70c3fa;
+}
+
+.checkbox:hover {
+    background-color: #047de052;
+}
+
+.item-container {
+    flex-grow: 1;
+}
+
+.input-edit {
+    display: none;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: 1px solid #dadada;
+    width: 80%;
+}
+
+.input-edit:focus {
+    outline: #008cff;
+    border-width: 1px;
+    box-shadow: 0 0 3px rgba(0, 140, 255, 0.658);
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.edit,
+.delete {
+    margin-right: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+}
+
+.edit-icon {
+    width: 1rem;
+    height: 100%;
+}
+
+.delete-icon {
+    width: 1.15rem;
+    height: 100%;
+}

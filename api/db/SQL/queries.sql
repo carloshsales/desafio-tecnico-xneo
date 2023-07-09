@@ -1,0 +1,10 @@
+CREATE DATABASE xneo COLLATE utf8_unicode_ci;
+
+USE xneo;
+
+CREATE TABLE todo (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    description VARCHAR(255) NOT NULL,
+    checked TINYINT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

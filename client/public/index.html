@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/loading.css">
+    <link rel="stylesheet" href="./css/queries.css">
+    <title>XNEO</title>
+</head>
+
+<body>
+    <header>
+        <h1>XNEO</h1>
+        <h2>TO-DO LIST</h2>
+    </header>
+    <main>
+        <div id="loading-overlay">
+            <div class="loading-spinner"></div>
+        </div>
+    
+    
+        <form id="form-group" class="d-flex">
+            <input id="description" class="border-radius" type="text" name="description">
+            <button id="add-btn" class="border-radius" >ADD</button>
+        </form>
+    
+        <section id="main-container" class="d-flex">
+            <ul id="list-container">
+    
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto criado por: <span class="dev-name">Carlos Henrique Sales da Silva</span> para selelção da empresa <span class="enterprise-name">XNEO</span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/scripts/itemList.js"></script>
+    <script src="./js/scripts/functions.js"></script>
+    <script src="./js/scripts/ajax.js"></script>
+</body>
+
+</html>

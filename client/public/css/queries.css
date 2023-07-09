@@ -1,0 +1,20 @@
+/* Tela acima de 1280px */
+@media (min-width: 1281px) {
+    .list-item {
+        width: 40%;
+    }
+}
+
+/* Tela entre 720px e 1280px */
+@media (min-width: 720px) and (max-width: 1280px) {
+    .list-item {
+        width: 60%;
+    }
+}
+
+/* Tela abaixo de 720px */
+@media (max-width: 719px) {
+    .list-item {
+        width: 100%;
+    }
+}

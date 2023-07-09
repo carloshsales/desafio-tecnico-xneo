@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background: linear-gradient(to bottom, #047de0a2, #ffffff);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #2f2f2f;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 6px 20px -7px #2f2f2f;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #047de0;
+}
+
+header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f2f2f2;
+}
+
+main {
+    max-height: 85vh;
+    width: 100%;
+    overflow: auto;
+
+}
+
+main::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f1f1f1;
+}
+
+main::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 3px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+    background-color: #047de0;
+}
+
+main::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+footer {
+    min-height: 5vh;
+    background-color: #2f2f2f;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px -6px 20px -7px rgba(47, 47, 47, 1);
+}
+
+footer p, span {
+    color: #f2f2f2;
+    font-size: .8rem;
+}
+
+.dev-name {
+    color: #ee9b00;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.enterprise-name {
+    color: #047de0;
+    font-weight: 700;
+}

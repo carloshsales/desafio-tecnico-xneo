@@ -1,0 +1,13 @@
+Instruções para uso do PROJETO
+
+CONFIGURAÇÃO DO BANCO DE DADOS
+    1 - acesse o diretório em: "todo_list_xneo/api/db";
+    2 - abra o arquivo de nome "connectDataBase.php";
+    3 - modifique a string de conexão de acordo com suas configurações do banco de dados MySQL instalado em sua máquina;
+    4 - execure as queries SQL que estão no arquivo "queries.sql" que está localizado no diretório "xneo/api/db/SQL";
+
+RODANDO O PROJETO
+    1 - abra o seu terminal e navegue até a pasta onde se encontra o projeto;
+    2 - navegue até a pasta "public" onde se encontra o index.php;
+    3 - no seu terminal digite o seguinte comando: php -S localhost:8080;
+    4 - cole o link local em seu browser e utilize o projeto;

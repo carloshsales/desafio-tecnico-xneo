@@ -1,0 +1,27 @@
+PROJETO TO-DO LIST - XNEO
+
+TECNOLOGIAS: 
+    -SERVER SIDE:
+        XAMPP
+            - APACHE SERVER;
+            - PHP;
+            - MySQL (MariaDB - Extenção (fork) do MySQL com melhorias).
+
+    -CLIENT SIDE:
+        - HTML;
+        - CSS;
+        - JavaScript;
+        - JQuery.
+    
+ARQUITETURA:
+    A arquitetura utilizada foi uma Arquitetura em Camadas (Layered Architecture) para uma melhor organização do frontend e backend.
+    A primeira camada (pasta/diretório) "API" é responsável por lidar com as solicitações para as rotas e retorno de dados.
+    A segunda camada (pasta/diretório) "CLIENT" é responsável por exibir a interface e os dados para o cliente de forma fácil e intuitiva, assim como interagir com a "API".
+
+ROTAS:
+    - /index : Responsável pela renderização da interface e dados para o cliente;
+    - /all : Responsável pela requisição de todas as tarefas cadastradas no bando de dados;
+    - /create : Responsável pela insersão de tarefas no bando de dados;
+    - /update : Responsável pela atualização das tarefas no bando de dados;
+    - /delete : Responsável pela remoção das tarefas no bando de dados;
+    - /check : Responsável pera marcação e atualização da propriedade "check" no banco de dados.
